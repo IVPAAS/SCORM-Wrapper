@@ -1,0 +1,79 @@
+#include001{
+    position:relative;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+}
+#playerContainer{
+    padding:2px;
+    padding-left:20px;
+    text-align: center;
+    background-color: black;
+}
+#header{
+    position:relative;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+#footer{
+    position:relative;
+    font-size: 10px;
+    color: white;
+    background-color: #20788D;
+    /*background-color: url("img/footer-bg.jpg") repeat-x scroll center top #20788D*/
+    padding:10px;
+
+}
+#title1{
+    position:absolute;
+    bottom:3px;
+    left:137px;
+    z-index:100;
+
+    background-color: white;
+    text-align: left;
+    padding:2px;
+}
+#playerPlaceHolder_loading{
+    color:white;
+}
+#panelNextSco{
+    position:absolute;
+    top:-5px;
+    right:2px;
+    z-index:110;
+    padding:10px;
+    border:1px solid black;
+    background-color: white;
+    width: 130px;
+}
+#moduleCompleted{
+     position:absolute;
+     top:3px;
+     right:10px;
+     z-index:101;
+
+     background-color: #D8D8D8;
+     padding:2px;
+
+     font-size:small;
+ }
+#moduleCompleted span{
+    font-style:italic;
+}
+#foundScorm{
+    position:absolute;
+    top:3px;
+    right:10px;
+    z-index:101;
+
+    color: #2078EE;
+
+    padding:2px;
+
+    font-size:small;
+}
+#foundScorm span{
+    font-style:italic;
+}

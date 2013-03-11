@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+						<manifest identifier="Manifest_2004-4a" version="1.1"
+						          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+						          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+						          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+						          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd 
+						                              http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd 
+						                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">  <metadata>
+      <schema>ADL SCORM</schema>
+      <schemaversion>1.2</schemaversion>
+      <adlcp:location>courseMetadata.xml</adlcp:location>
+   </metadata>
+   <organizations default = "LINEAR">
+      <organization identifier = "LINEAR">
+         <title>VideoSpace Course</title>
+         <item identifier ="ident_903e0f44-b1af-4226-9d5c-1bb7248c5698" identifierref ="ref_903e0f44-b1af-4226-9d5c-1bb7248c5698" isvisible = "true" >
+              <title>Introduction</title>
+         </item>
+         <item identifier ="ident_9ba20e81-6a13-419f-8d0b-9c6788840a9a" identifierref ="ref_9ba20e81-6a13-419f-8d0b-9c6788840a9a" isvisible = "true" >
+              <title>Intro to Online Video Market</title>
+         </item>
+         <item identifier ="ident_a6043f34-5319-4a48-ba0f-e304a315ca5e" identifierref ="ref_a6043f34-5319-4a48-ba0f-e304a315ca5e" isvisible = "true" >
+              <title>Atos Kaltura Partnership</title>
+         </item>
+         <item identifier ="ident_f902174d-c002-4529-b071-244c083d0327" identifierref ="ref_f902174d-c002-4529-b071-244c083d0327" isvisible = "true" >
+              <title>Quiz 1</title>
+         </item>
+         <item identifier ="ident_e0bba9fa-5cb6-4fcb-baa5-3d59b635603d" identifierref ="ref_e0bba9fa-5cb6-4fcb-baa5-3d59b635603d" isvisible = "true" >
+              <title>Atos VideoSpace Offerings</title>
+         </item>
+         <item identifier ="ident_8fc6abfe-4aa1-4067-aa2c-ca04f9df11a9" identifierref ="ref_8fc6abfe-4aa1-4067-aa2c-ca04f9df11a9" isvisible = "true" >
+              <title>Quiz 2</title>
+         </item>
+         <item identifier ="ident_b3da0431-ef45-45d4-bf7d-b952a2da3d21" identifierref ="ref_b3da0431-ef45-45d4-bf7d-b952a2da3d21" isvisible = "true" >
+              <title>Atos&apos; Services and Pricing</title>
+         </item>
+         <item identifier ="ident_98e872c0-7f73-4044-ae09-3045dbb8c214" identifierref ="ref_98e872c0-7f73-4044-ae09-3045dbb8c214" isvisible = "true" >
+              <title>Quiz 3</title>
+         </item>
+      </organization>
+   </organizations>
+   <resources>
+      <resource identifier ="ref_903e0f44-b1af-4226-9d5c-1bb7248c5698" type = "webcontent" adlcp:scormtype ="sco" href="sco_videos/sco_video1.html">
+         <file href = "sco_videos/sco_video1.html"/>
+      </resource>
+      <resource identifier ="ref_9ba20e81-6a13-419f-8d0b-9c6788840a9a" type = "webcontent" adlcp:scormtype ="sco" href="sco_videos/sco_video2.html">
+         <file href = "sco_videos/sco_video2.html"/>
+      </resource>
+      <resource identifier ="ref_a6043f34-5319-4a48-ba0f-e304a315ca5e" type = "webcontent" adlcp:scormtype ="sco" href="sco_videos/sco_video3.html">
+         <file href = "sco_videos/sco_video3.html"/>
+      </resource>
+      <resource identifier ="ref_f902174d-c002-4529-b071-244c083d0327" type = "webcontent" adlcp:scormtype ="sco" href="quiz1/multiscreen.html">
+         <file href = "quiz1/multiscreen.html"/>
+      </resource>
+      <resource identifier ="ref_e0bba9fa-5cb6-4fcb-baa5-3d59b635603d" type = "webcontent" adlcp:scormtype ="sco" href="sco_videos/sco_video4.html">
+         <file href = "sco_videos/sco_video4.html"/>
+      </resource>
+      <resource identifier ="ref_8fc6abfe-4aa1-4067-aa2c-ca04f9df11a9" type = "webcontent" adlcp:scormtype ="sco" href="quiz2/multiscreen.html">
+         <file href = "quiz2/multiscreen.html"/>
+      </resource>
+      <resource identifier ="ref_b3da0431-ef45-45d4-bf7d-b952a2da3d21" type = "webcontent" adlcp:scormtype ="sco" href="sco_videos/sco_video5.html">
+         <file href = "sco_videos/sco_video5.html"/>
+      </resource>
+      <resource identifier ="ref_98e872c0-7f73-4044-ae09-3045dbb8c214" type = "webcontent" adlcp:scormtype ="sco" href="quiz3/multiscreen.html">
+         <file href = "quiz3/multiscreen.html"/>
+      </resource>
+   </resources>
+</manifest>

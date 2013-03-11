@@ -1,0 +1,52 @@
+{
+    "templateUrl":"://cdnsecakmi.kaltura.com/p/{partnerId}/sp/{partnerId}00/embedIframeJs/uiconf_id/{uiConfId}/partner_id/{partnerId}",
+    "templateEmbed":{
+        "targetId": null,
+        "cache_st": 1359426314,
+        "wid": "_961381",
+        "uiconf_id": "11462381",
+        "width": "560",
+        "height": "395",
+        "flashvars": {
+            "streamerType": "auto"
+        },
+        "entry_id": null
+    },
+    "scos": [
+    {
+        "id": "sco_video1",
+        "title": "Atos VideoSpace Online Course - Introduction",
+        "embed": {
+            "entry_id": "1_tvn1ykts"
+        }
+    },
+    {
+        "id": "sco_video2",
+        "title": "Atos VideoSpace Online Course - Introduction to Online Video Market",
+        "embed": {
+            "entry_id": "1_ggi1y3ug"
+        }
+    },
+    {
+        "id": "sco_video3",
+        "title": "Atos VideoSpace Online Course - Atos Kaltura Partnership",
+        "embed": {
+            "entry_id": "1_uq7u7r0w"
+        }
+    },
+    {
+        "id": "sco_video4",
+        "title": "Atos VideoSpace Online Course - Atos VideoSpace Offerings",
+        "embed": {
+            "entry_id": "1_el2g1422"
+        }
+    },
+    {
+        "id": "sco_video5",
+        "title": "Atos VideoSpace Online Course - Atos Services and Pricing",
+        "embed": {
+            "entry_id": "1_aapfv0jt"
+        }
+    }
+]
+}
